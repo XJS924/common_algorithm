@@ -28,6 +28,5 @@ def heapsort(arr):
 
 if __name__ == '__main__':
     arr = [randint(0, 100) for _ in range(14)]
-    # print(sorted(arr))
-    # print(arr)
+
     print(heapsort(arr) == sorted(arr))
